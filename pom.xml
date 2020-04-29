@@ -9,6 +9,7 @@
 
     <modules>
         <module>load-balance-examples</module>
+        <module>signature-examples</module>
     </modules>
 
     <repositories>
@@ -127,12 +128,12 @@
             <version>${alibaba-fastjson.version}</version>
         </dependency>
 
-        <!-- test -->
-        <!-- spring-boot-starter-test 包含logger的依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
+
+        <!-- test -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
