@@ -1,5 +1,7 @@
 # algorithm-examples
 
++ <https://github.com/TheAlgorithms>
+
 ## load-balance-examples （负载均衡策略）
 代码实现参考：
 1. [github, seata]\: 实现超级简单，就几行代码。（未引入 weight权重）
